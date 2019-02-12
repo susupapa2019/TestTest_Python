@@ -1,4 +1,7 @@
-var a = "String";
-var b = 12579;
-var c = a + b;
-print ("a + b = " + c);
+def add(x, y):
+    print ("x is %s and y is %s " %(x,y))
+    return x + y
+
+a = "String"
+b = "12579"
+print(add(a,b))
